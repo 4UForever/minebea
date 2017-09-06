@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/viewGroup"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/mainPaddingTop_InNameModel">
+
+
+    <TextView
+        android:id="@+id/lblListHeader"
+        android:paddingTop="@dimen/textMargin"
+        android:paddingBottom="@dimen/textMargin"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@color/blackText"
+        android:textSize="@dimen/textSizeNormal"
+        android:text="Android" />
+
+</LinearLayout>

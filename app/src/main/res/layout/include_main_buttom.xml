@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:padding="@dimen/mainPaddingTop_InNameModel"
+        android:background="@color/bgModel"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:layout_weight="0.6"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Model   : "
+                    android:textColor="@color/blackText"
+                    android:textSize="@dimen/textSizeNormal"
+                    android:id="@+id/textView5" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Model   : "
+                    android:textColor="@color/blueText"
+                    android:textSize="@dimen/textSizeNormal"
+                    android:id="@+id/lbTextModel" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/textMargin"
+                android:layout_marginBottom="@dimen/textMargin"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/textSizeNormal"
+                    android:textColor="@color/blackText"
+                    android:text="Line no.: "
+                    android:id="@+id/textView7" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Model   : "
+                    android:textColor="@color/blueText"
+                    android:textSize="@dimen/textSizeNormal"
+                    android:id="@+id/lbTextLine" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/blackText"
+                    android:textSize="@dimen/textSizeNormal"
+                    android:text="Emp no.: "
+                    android:id="@+id/textView8" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Model   : "
+                    android:textColor="@color/blueText"
+                    android:textSize="@dimen/textSizeNormal"
+                    android:id="@+id/lbTextEmpNo" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="right"
+            android:layout_gravity="center_vertical|right"
+            android:layout_weight="0.4"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:textColor="@color/blackText"
+                        android:textSize="@dimen/textSizeNormal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Status : "
+                        android:id="@+id/textView9" />
+                    <TextView
+                        android:textStyle="bold"
+                        android:textColor="@android:color/holo_red_dark"
+                        android:textSize="@dimen/textSizeNormal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" - "
+                        android:id="@+id/lbStatus" />
+                </LinearLayout>
+
+                <CheckBox
+                    android:id="@+id/chkProcess"
+                    android:button="@drawable/checkbox_status_custom"
+                    android:layout_alignParentLeft="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/textMargin" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/fragmentDocument"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+
+</LinearLayout>

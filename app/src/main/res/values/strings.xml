@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Minebea</string>
+    <string name="hello_world">Hello world!</string>
+
+    <!-- Scan Activity -->
+    <string name="action_settings">Settings</string>
+
+
+    <!-- Dialog Emp_No -->
+    <string name="enterEmpNo">Enter Emp no.</string>
+    <string name="pleaseInput">Please in put Emp no.</string>
+
+    <!-- Dialog Login Faied -->
+    <string name="textLoginFaied">you are not authorize to working this\nprocess please contact to Line leader.</string>
+    <string name="textLogin_Nodata">User not have Model and Process</string>
+
+    <!-- Dialog Emp_ListSelect -->
+    <string name="emp_no">Emp no.:</string>
+    <string name="emp_Model">Model    : </string>
+    <string name="emp_LineNo"   >Line no. :</string>
+
+
+    <!-- Dialog Stop Running -->
+    <string name="lbStopRunning">Stop Running ?</string>
+    <string name="toast_please_input_comment">Please input Comment</string>
+
+
+    <!-- Main Activity-->
+    <string name="lbRunning">RUNNING</string>
+    <string name="lbStop">STOP</string>
+    <string name="lbFailure">Failure</string>
+
+    <string name="downloadSuccess">DownloadSuccess</string>
+    <string name="downloadNotSuccess">DownloadFailure</string>
+    <string name="downloading">Downloading...</string>
+
+
+</resources>
